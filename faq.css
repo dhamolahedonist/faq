@@ -1,0 +1,84 @@
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  /* 62.5% of 16px =10px */
+  font-size: 62.5%;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.9;
+}
+h1,
+h2,
+h3 {
+  color: var(--font-color);
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+#timer {
+  justify-content: center;
+}
+
+h1 {
+  color: #182a42;
+  text-align: center;
+  font-size: 50px;
+}
+h3 {
+  font-size: 20px;
+  /* text-align: start; */
+  padding: 1.3rem 1rem;
+}
+#timer {
+  height: 500px;
+  width: 700px;
+  background-color: #f3f3f3;
+  margin-top: 10rem;
+}
+#timer h1 {
+  margin-top: 5rem;
+}
+#timer h2 {
+  size: 20px;
+  margin-top: 10rem;
+}
+.contain-box {
+  background: white;
+  width: 80%;
+  border: 2px solid #f3f3f3;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0, 0.7);
+  margin-left: 7rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+.contain-box button {
+  position: relative;
+  left: 90%;
+  top: -59px;
+  color: brown;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
